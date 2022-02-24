@@ -21,6 +21,12 @@ public class BikesControllerTest : CustomWebApplicationFactory<Program>
         this.formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue(ContentType.ProblemJson));
     }
 
+    protected override void ConfigureServices(IServiceCollection services) =>
+        services
+            .AddSingleton(this.BikeRepositoryMock.Object)
+            .AddSingleton(this.GreeterServiceMock.Object)
+        ;
+
     [Fact]
     public async Task Get_BikeFound_Returns200OkAsync()
     {
