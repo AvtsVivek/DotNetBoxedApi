@@ -5,23 +5,20 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{57BAE1BC-D418-4A95-B292-C0E9324B0A54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D57B72FA-A893-400C-AB2E-6919219A38D2}"
-	ProjectSection(SolutionItems) = preProject
-		ApiApplication1\Tests\.editorconfig = ApiApplication1\Tests\.editorconfig
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBD2504D-975E-4B64-B938-7DDD19C7DB9D}"
 	ProjectSection(SolutionItems) = preProject
-		VehicleApi\.editorconfig = VehicleApi\.editorconfig
+		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		VehicleApi\Directory.Build.props = VehicleApi\Directory.Build.props
-		VehicleApi\dotnet-tools.json = VehicleApi\dotnet-tools.json
-		VehicleApi\global.json = VehicleApi\global.json
+		build.cake = build.cake
+		Directory.Build.props = Directory.Build.props
+		dotnet-tools.json = dotnet-tools.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{60E0F62E-605A-48F2-BFCA-C63B45AB6335}"
 	ProjectSection(SolutionItems) = preProject
-		VehicleApi\README.md = VehicleApi\README.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi", "VehicleApi\Source\VehicleApi\VehicleApi.csproj", "{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}"
