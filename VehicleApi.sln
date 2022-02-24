@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{57BAE1BC-D418-4A95-B292-C0E9324B0A54}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57BAE1BC-D418-4A95-B292-C0E9324B0A54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D57B72FA-A893-400C-AB2E-6919219A38D2}"
 EndProject
@@ -21,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi", "VehicleApi\Source\VehicleApi\VehicleApi.csproj", "{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi", "src\VehicleApi\VehicleApi.csproj", "{00AB8F7F-89AF-4C1C-B991-B761767A77C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi.IntegrationTest", "VehicleApi\Tests\VehicleApi.IntegrationTest\VehicleApi.IntegrationTest.csproj", "{7C10041D-7769-4278-85AD-3CFCE3929C26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleApi.IntegrationTest", "tests\VehicleApi.IntegrationTest\VehicleApi.IntegrationTest.csproj", "{1EAD616C-0196-4941-A0B6-D3CF7285C644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,21 +31,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B34E7AA-4C00-4F7E-938B-5C9C0C330064}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C10041D-7769-4278-85AD-3CFCE3929C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C10041D-7769-4278-85AD-3CFCE3929C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C10041D-7769-4278-85AD-3CFCE3929C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C10041D-7769-4278-85AD-3CFCE3929C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AB8F7F-89AF-4C1C-B991-B761767A77C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AB8F7F-89AF-4C1C-B991-B761767A77C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AB8F7F-89AF-4C1C-B991-B761767A77C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AB8F7F-89AF-4C1C-B991-B761767A77C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAD616C-0196-4941-A0B6-D3CF7285C644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAD616C-0196-4941-A0B6-D3CF7285C644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAD616C-0196-4941-A0B6-D3CF7285C644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAD616C-0196-4941-A0B6-D3CF7285C644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0B34E7AA-4C00-4F7E-938B-5C9C0C330064} = {57BAE1BC-D418-4A95-B292-C0E9324B0A54}
-		{7C10041D-7769-4278-85AD-3CFCE3929C26} = {D57B72FA-A893-400C-AB2E-6919219A38D2}
+		{00AB8F7F-89AF-4C1C-B991-B761767A77C8} = {57BAE1BC-D418-4A95-B292-C0E9324B0A54}
+		{1EAD616C-0196-4941-A0B6-D3CF7285C644} = {D57B72FA-A893-400C-AB2E-6919219A38D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E464B40-8B3D-427D-BA61-053DB0B94967}
